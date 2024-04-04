@@ -3,7 +3,7 @@
 % You can adapt this file completely to your liking, but it should at least
 % contain the root `toctree` directive.
 
-# Welcome to Example Sphinx's documentation!
+# Welcome to Trader's documentation!
 
 ```{include} ../../README.md
 :relative-images:
