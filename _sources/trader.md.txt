@@ -1,4 +1,4 @@
-## Make Incident
+## Trader
 ```{eval-rst}
 .. automodule:: trader
    :members:
