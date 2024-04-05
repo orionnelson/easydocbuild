@@ -3,19 +3,19 @@
 % You can adapt this file completely to your liking, but it should at least
 % contain the root `toctree` directive.
 
-# Welcome to Trader's documentation!
+# Welcome to {^name^}'s documentation!
 
 ```{include} ../../README.md
 :relative-images:
 ```
 ```{warning}
-The trader is being built 
+The {^name^} is being built 
 ```
 
 ```{toctree}
 :caption: 'Contents:'
 :maxdepth: 2
-trader
+{^name^}
 ```
 
 # Indices and tables

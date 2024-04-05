@@ -20,8 +20,11 @@ jobs:
           sudo apt-get install make
           python -m venv sdocs
           source sdocs/bin/activate
+          python setup.py RANDOM_PROJECT_OOOOO 1.1.Anything cool_lammas
           python -m pip install -r docs.requirements.txt
           python -m pip install -r requirements.txt
+          rm setup.py
+
       - name: Build Documentation
         run: |
           source sdocs/bin/activate
