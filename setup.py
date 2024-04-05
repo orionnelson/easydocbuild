@@ -27,6 +27,8 @@ def replace_in_filename(file_path, project_name, project_version,project_team):
 
 def replace_placeholders(directory, project_name, project_version,project_team):
     for root, dirs, files in os.walk(directory, topdown=False):
+        if '.git' in root.split(os.sep):
+                continue
         for name in files:
             file_path = os.path.join(root, name)
 
