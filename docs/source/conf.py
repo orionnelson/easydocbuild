@@ -11,7 +11,7 @@ sys.path.insert(0, os.path.abspath('../../'))
 
 project = '{^name^}'
 copyright = ''
-author = 'Team Name'
+author = '{^team^}'
 release = '{^version^}'
 
 # -- General configuration ---------------------------------------------------
