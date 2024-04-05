@@ -1,5 +1,5 @@
-## Trader
+## RANDOM_PROJECT_OOOOO
 ```{eval-rst}
-.. automodule:: trader
+.. automodule:: RANDOM_PROJECT_OOOOO
    :members:
 ```
