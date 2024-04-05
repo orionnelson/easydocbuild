@@ -4,7 +4,7 @@ import sys
 # Usage: python setup.py PROJECT_NAME PROJECT_VERSION
 
 def replace_in_file(file_path, project_name, project_version,project_team):
-    with open(file_path, 'r', encoding='utf-8') as file:
+    with open(file_path, 'r', encoding='utf-8',errors='ignore') as file:
         file_contents = file.read()
 
     # Replace placeholders in file content
@@ -12,7 +12,7 @@ def replace_in_file(file_path, project_name, project_version,project_team):
     file_contents = file_contents.replace('{^team^}', project_team)
     file_contents = file_contents.replace('{^version^}', project_version)
 
-    with open(file_path, 'w', encoding='utf-8') as file:
+    with open(file_path, 'w', encoding='utf-8', errors='ignore') as file:
         file.write(file_contents)
 
 def replace_in_filename(file_path, project_name, project_version,project_team):
